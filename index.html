@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Replicando Twitter</title>
+    <link rel='stylesheet' href='style.css'>
+    <img src="Pernalonga3.png" alt="">
+  </head>
+  <body>
+    <header> <h1>Twitter</h1> </header>
+    <form>
+      <textarea id='text' onkeyup='counter_textarea(this.value)' onkeydown='onKeyPressTextMessage()'
+      placeholder=' E ai velhinho...' wrap='off'></textarea>
+      <span id='contactor'></span>
+      <br/>
+      <button id="button" type='button'  name= 'button'>Twittar</button>
+    </form>
+    <hr>
+    <div id='newPost'></div>
+    <script src='app.js' charset='utf-8'></script>
+   <script type='text/javascript' src='moment.js'></script>
+ </body>
+</html>
