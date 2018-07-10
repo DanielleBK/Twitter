@@ -77,6 +77,8 @@ hr{
 	margin-top:20px;
 	white-space: pre-wrap;
 	word-break:break-all;
+	font-size: 20px;
+	font-family:Arial;
 }
 
 .boxPost{
@@ -95,4 +97,8 @@ img{
 	display: flex;
 	position: absolute;
 
+}
+.boxDate{
+	position: fixed;
+	color:red;
 }

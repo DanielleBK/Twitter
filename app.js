@@ -1,15 +1,10 @@
-
-
-
-
 function post(){                                    //cod.para 'twittar'
 	var text2 = document.getElementById('text').value;
 	var newPost = document.getElementById('newPost');
 	var newP = document.createElement('div');
-	var button = document.getElementById('button');
-
+	var date = new Date()
+	newP.innerHTML = text2 + '<br/>' + date.getHours() + ':' + date.getMinutes();
 	newP.setAttribute('class', 'boxPost' );
-	newP.textContent = text.value;
 	newPost.appendChild(newP);
 	document.getElementById('text').value='';
 	document.getElementById('text').focus(text);
